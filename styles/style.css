@@ -9,18 +9,18 @@ body {
     margin: 20px;
 }
 
-#content-top, #content-bottom {
+.content-top, .content-bottom {
     display: block;
     max-width: 80%;
     overflow: hidden;
 }
 
-#main-left {
+.main-left {
     float: left;
     width: 49%;
 }
 
-#main-right {
+.main-right {
     float: right;
     width: 49%;
 }
@@ -29,6 +29,11 @@ img {
     width: 200px;
 }
 
-table, th, tr, td {
+table * {
     border: 1px solid black;
 }
+
+tr:nth-child(even) {
+    background-color: beige;
+}
+
