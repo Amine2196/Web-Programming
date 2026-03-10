@@ -9,6 +9,11 @@ body {
     margin: 20px;
 }
 
+h1:first-letter {
+    color: maroon;
+    font-size: 40px;
+}
+
 #content-top, #content-bottom {
     display: block;
     max-width: 80%;
@@ -25,10 +30,22 @@ body {
     width: 49%;
 }
 
+a {
+    color: maroon;
+}
+
+a:hover {
+    color: coral;
+}
+
 img {
     width: 200px;
 }
 
 table, th, tr, td {
     border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
 }
