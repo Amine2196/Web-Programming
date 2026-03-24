@@ -3,75 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://www.uwgb.edu/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles/style.css">
-    <title>Amine Ben Njima Portfolio</title>
+    <title>Amine Ben Njima | Home</title>
 </head>
-<!-- Create your first personal website using HTML. Your HTML file must be named index.html.
-
-You may design your website using your imagination or follow the template we discussed in class. However, in your index.html file, you must include:
-
-one unordered list
-
-one ordered list
-
-a table
-
-an image
-
-an HTML comment -->
 <body>
-    <div id="content-top">
-        <h1>Welcome to My Web Programming Site</h1>
-        <p>Below you'll find some information about me:</p>
-        <section id="main-left">
-            <h2>Hobbies</h2>
-            <ul>
-                <li>Gaming</li>
-                <li>Programming</li>
-                <li>Aerospace</li>
-                <li>Traveling</li>
-                <li>Marketing</li>
-            </ul>
-            <h2>Favorite Food & Drinks</h2>
-            <ol>
-                <li>Margherita Pizza</li>
-                <li>Dr. Pepper</li>
-                <li>Shakshuka</li>
-                <li>Coffee</li>
-                <li>Ravioli</li>
-            </ol>
-        </section>
-        <section id="main-right">
-            <img src="images/amineportrait.png" alt="Portrait of Amine, artistic style">
-        </section>
-    </div>
-    <div id="content-bottom">
-        <section id="main-left">
-            <h2>IT Stats</h2>
-            <table>
-                <tr>
-                    <th>Category</th>
-                    <th>Score</th>
-                </tr>
-                <tr>
-                    <td>Typing Speed (WPM)</td>
-                    <td>160</td>
-                </tr>
-                <tr>
-                    <td>Typing Accuracy</td>
-                    <td>93.2%</td>
-                </tr>
-                <tr>
-                    <td>Projects Completed</td>
-                    <td>66%</td>
-                </tr>
-            </table>
-        </section>
-        <section id="main-right">
-            Visit <a href="https://www.uwgb.edu/it/">UWGB IT Department</a> for more information about the courses I am taking and the resources available to students in the IT program.
-            Send me an email at <a href="mailto:email@example.com">email@example.com</a>
-        </section>
+    <!-- This homepage is for HTML and CSS practice. -->
+    <div id="wrapper">
+        <header>
+            <h1>Amine Ben Njima</h1>
+            <p>Web Programming Class</p>
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <main>
+            <section class="panel">
+                <img src="images/amineportrait.png" alt="Portrait of Amine" class="profile-photo">
+                <h2>Welcome</h2>
+                <p>
+                    I made this website for my web programming class. I wanted it to be an inspiration for a future project.
+                    It is simple, and easy to navigate.
+                </p>
+                <p>
+                    I am interested in programming, technology, travel, and learning how good websites
+                    are made.
+                </p>
+            </section>
+
+            <div class="left-column">
+                <section class="panel">
+                    <h2>Things I Enjoy</h2>
+                    <ul>
+                        <li>Gaming</li>
+                        <li>Programming</li>
+                        <li>Aerospace</li>
+                        <li>Traveling</li>
+                        <li>Marketing</li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="right-column">
+                <section class="panel">
+                    <h2>Goals For This Semester</h2>
+                    <ol>
+                        <li>Improve my HTML skills</li>
+                        <li>Practice CSS layouts</li>
+                        <li>Make pages look more organized</li>
+                        <li>Learn how forms and tables work</li>
+                    </ol>
+                </section>
+            </div>
+
+            <div class="clear"></div>
+
+            <section class="panel">
+                <h2>Quick Facts</h2>
+                <table>
+                    <tr>
+                        <th>Category</th>
+                        <th>Details</th>
+                    </tr>
+                    <tr>
+                        <td>Typing Speed</td>
+                        <td>160 WPM</td>
+                    </tr>
+                    <tr>
+                        <td>Favorite Subject</td>
+                        <td>Programming</td>
+                    </tr>
+                    <tr>
+                        <td>Current Focus</td>
+                        <td>Note Taking App</td>
+                    </tr>
+                    <tr>
+                        <td>Website Style</td>
+                        <td>Simple, organized, and easy to navigate</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Amine Ben Njima</p>
+        </footer>
     </div>
 </body>
 </html>
