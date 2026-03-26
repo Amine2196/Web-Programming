@@ -133,10 +133,6 @@ td {
     padding: 10px;
     text-align: left;
 }
-/* 
-th {
-    background-color: #e8eef4;
-} */
 
 tr:nth-child(even) {
     background-color: #e8eef4;
